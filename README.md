@@ -247,7 +247,7 @@ like for our rendered component printed in the console:
 ```
 
 We can also use this method to debug a single element:
-
+<!-- 
 ```jsx
 test("displays the text 'please pass this test'", () => {
   render(<Article />);
@@ -258,7 +258,7 @@ test("displays the text 'please pass this test'", () => {
 
   expect(element).toBeInTheDocument();
 });
-```
+``` -->
 
 Now we can see what just the `element` found by
 `screen.queryByText("please pass this test")` looks like:
